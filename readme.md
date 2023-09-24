@@ -20,10 +20,13 @@ With sample app. However, it's over restrictive and only registers (stylus liste
 ## Use With
 
 Stylus JNI needs [org.lecturestudio.stylus ](https://github.com/lectureStudio/stylus/tree/main/stylus/src/main/java/org/lecturestudio/stylus) Java classes for the stylus listener interface and events.
+Or [my mod of above](https://github.com/sdneon/stylus-lib).
 
 It's okay to enhance those classes, so long as the _base_ interface used by JNI to transfer stylus info through, remains intact.
 
-Refer to  [lectureStudio](https://github.com/lectureStudio/stylus)'s sample app if needed. Although that uses Google Guice which obfuscate's things somewhat, making it harder to understand the app's codes.
+For sample app, refer to  either:
+* [lectureStudio](https://github.com/lectureStudio/stylus)'s sample app if needed. Although that uses Google Guice which obfuscate's things somewhat, making it harder to understand the app's codes.
+* my [stylus-sample](https://github.com/sdneon/stylus-sample).
 
 ### Deficiency
 
